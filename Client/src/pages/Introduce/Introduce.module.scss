@@ -1,0 +1,105 @@
+.introduce-container {
+  padding: 40px 0;
+}
+
+.introduce-title {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 59px;
+  padding-top: 20px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #000000;
+}
+
+.introduce-item {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  grid-gap: 10%;
+  margin-bottom: 20px;
+  padding: 50px 150px;
+}
+
+.introduce-item:nth-child(3) {
+  background-color: #fcd038;
+  margin-right: 50px;
+  border-radius: 0px 50px 50px 0px;
+}
+
+.introduce-item-text {
+  text-indent: 40px;
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  justify-content: center;
+}
+
+.introduce-item-text:nth-child(3) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.flex-direction {
+  display: flex;
+  flex-direction: column;
+  text-indent: 40px;
+  font-size: 18px;
+  font-weight: 500;
+  align-items: center;
+  text-align: justify;
+  justify-content: space-between;
+}
+
+.introduce-item-text-source {
+  font-style: italic;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.introduce-item-img {
+  img {
+    width: 100%;
+  }
+}
+
+.introduce-achievements {
+  padding: 0 40px 40px;
+  margin: 0 150px;
+  background-color: #fcd038;
+  border-radius: 50px;
+}
+
+.introduce-achievements-sub_title {
+  font-style: italic;
+  text-align: center;
+  font-weight: 500;
+}
+
+.introduce-achievements-item-wrap {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+.introduce-achievements-item {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.introduce-contact {
+  padding: 0 30px 40px;
+  margin: 80px 150px 0;
+  border: 3px solid #fcd038;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 500;
+}
